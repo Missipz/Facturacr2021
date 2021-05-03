@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FacturaElectronica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://cdn.comprobanteselectronicos.go.cr/xml-schemas/v4.3/facturaElectronica">
+		    <Clave>50629042100040216065300100001010000000151112086593</Clave>
+		    <CodigoActividad>721001</CodigoActividad>
+		    <NumeroConsecutivo>00100001010000000151</NumeroConsecutivo>
+		    <FechaEmision>2021-04-29T19:53:56-06:00</FechaEmision>
+		    <Emisor>
+		        <Nombre>Joseph Rodriguez Roman</Nombre>
+		        <Identificacion>
+		            <Tipo>01</Tipo>
+		            <Numero>402160653</Numero>
+		        </Identificacion>
+		        <NombreComercial>Joseph Rodriguez Roman</NombreComercial>
+		        <Ubicacion>
+		            <Provincia>4</Provincia>
+		            <Canton>02</Canton>
+		            <Distrito>02</Distrito>
+		            <Barrio>05</Barrio>
+		            <OtrasSenas>La maquina</OtrasSenas>
+		        </Ubicacion>
+		        <Telefono>
+		            <CodigoPais>506</CodigoPais>
+		            <NumTelefono>88888888</NumTelefono>
+		        </Telefono>
+		        <CorreoElectronico>jrodriguez081192@gmail.com</CorreoElectronico>
+		    </Emisor>
+		    <Receptor>
+		       <Nombre>Taller Gonzáles S.A</Nombre>
+		        <Identificacion>
+		            <Tipo>02</Tipo>
+		            <Numero>3101143237</Numero>
+		        </Identificacion>
+		        <NombreComercial>Taller Gonzáles S.A</NombreComercial>
+		        <Ubicacion>
+		            <Provincia>2</Provincia>
+		            <Canton>01</Canton>
+		            <Distrito>13</Distrito>
+		            <Barrio>05</Barrio>
+		            <OtrasSenas>La maquina</OtrasSenas>
+		        </Ubicacion>
+		        <Telefono>
+		            <CodigoPais>506</CodigoPais>
+		            <NumTelefono>24874310</NumTelefono>
+		        </Telefono>
+		        <CorreoElectronico>jrodriguez081192@gmail.com</CorreoElectronico>
+		    </Receptor>
+		    <CondicionVenta>01</CondicionVenta>
+		    <PlazoCredito>0</PlazoCredito>
+		    <MedioPago>01</MedioPago>
+		    <DetalleServicio><LineaDetalle>
+		            <NumeroLinea>1</NumeroLinea>
+		            <Codigo>8344900000000</Codigo>
+		            <Cantidad>1</Cantidad>
+		            <UnidadMedida>Unid</UnidadMedida>
+		            <Detalle>diseño</Detalle>
+		            <PrecioUnitario>50000</PrecioUnitario>
+		            <MontoTotal>50000</MontoTotal><SubTotal>50000</SubTotal>
+		            <Impuesto>
+		                <Codigo>01</Codigo>
+		                <CodigoTarifa>08</CodigoTarifa>
+		                <Tarifa>13</Tarifa>
+		                <Monto>6500</Monto>  
+		            </Impuesto>
+		            
+		            <ImpuestoNeto>6500</ImpuestoNeto>
+		            <MontoTotalLinea>56500</MontoTotalLinea>
+	        	</LineaDetalle></DetalleServicio>
+
+		    <ResumenFactura>
+		        <CodigoTipoMoneda>
+		            <CodigoMoneda>CRC</CodigoMoneda>
+		            <TipoCambio>1</TipoCambio>
+		        </CodigoTipoMoneda>
+		        <TotalServGravados>0</TotalServGravados>
+		        <TotalServExentos>0</TotalServExentos>
+		        <TotalServExonerado>0</TotalServExonerado>
+		        <TotalMercanciasGravadas>50000</TotalMercanciasGravadas>
+		        <TotalMercanciasExentas>0</TotalMercanciasExentas>
+		        <TotalMercExonerada>0</TotalMercExonerada>
+		        <TotalGravado>50000</TotalGravado>
+		        <TotalExento>0</TotalExento>
+		        <TotalExonerado>0</TotalExonerado>
+		        <TotalVenta>50000</TotalVenta>
+		        <TotalDescuentos>0</TotalDescuentos>
+		        <TotalVentaNeta>50000</TotalVentaNeta>
+		        <TotalImpuesto>6500</TotalImpuesto>
+		        <TotalComprobante>56500</TotalComprobante>
+		    </ResumenFactura>
+		    <Otros>
+		        <OtroTexto/>
+		    </Otros>
+			</FacturaElectronica>
